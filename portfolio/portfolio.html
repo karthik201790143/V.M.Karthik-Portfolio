@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Viswanadha Manikanta Karthik | IT Graduate</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet"/>
+ <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">VMK</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#experience" onclick="toggleMenu()">Experience</a>
+  <a href="#projects" onclick="toggleMenu()">Projects</a>
+  <a href="#skills" onclick="toggleMenu()">Skills</a>
+  <a href="#contact" onclick="toggleMenu()">Contact</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <div class="hero-badge-dot"></div>
+      BTech IT Graduate · Open to Opportunities
+    </div>
+    <h1 class="hero-name">
+      Viswanadha<br><span class="grad">Manikanta</span><br>Karthik
+    </h1>
+    <p class="hero-title-line">Full Stack Developer &amp; IT Engineer</p>
+    <p class="hero-desc">
+      Passionate about building <strong>scalable web applications</strong> with modern JavaScript frameworks.
+      Fresh graduate with hands-on experience in <strong>React, Vite</strong>, and full-stack development.
+    </p>
+    <div class="hero-ctas">
+      <a href="#projects" class="btn-primary">View Projects →</a>
+      <a href="#contact" class="btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="stat-num">3+</div>
+        <div class="stat-label">Projects Built</div>
+      </div>
+      <div>
+        <div class="stat-num">2026</div>
+        <div class="stat-label">BTech Graduate</div>
+      </div>
+      <div>
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Technologies</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-inner">
+    <div class="about-photo-wrap reveal">
+      <div class="about-photo-frame">
+        <div class="about-photo-placeholder">VMK</div>
+      </div>
+      <div class="about-photo-badge">IT Graduate 2026 🎓</div>
+    </div>
+    <div class="about-text reveal">
+      <div class="section-label">About Me</div>
+      <h2 class="section-title">Building the web, one commit at a time</h2>
+      <div class="divider"></div>
+      <p>I'm <strong>Viswanadha Manikanta Karthik</strong>, a fresh <strong>BTech IT graduate</strong> from Prasad V. Potluri Siddhartha Institute of Technology (May 2026).</p>
+      <p>My passion lies in crafting intuitive, performant web applications. I've built full-stack projects from scratch — including <strong>WanderLog</strong>, a country explorer app with React, Vite, REST APIs, and protected routing.</p>
+      <p>I thrive on solving real problems with clean code, love learning new tools, and am eager to contribute to a team that ships meaningful products.</p>
+      <div class="about-tags">
+        <span class="tag">React &amp; Vite</span>
+        <span class="tag">JavaScript (ES6+)</span>
+        <span class="tag">REST APIs</span>
+        <span class="tag">CSS / Responsive Design</span>
+        <span class="tag">Git &amp; GitHub</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Problem Solver</span>
+        <span class="tag">Fast Learner</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="reveal">
+    <div class="section-label">Career Journey</div>
+    <h2 class="section-title">Experience &amp; Education</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Academic projects and internships that shaped my development skills.</p>
+  </div>
+  <div class="exp-timeline">
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-date">May 2026</div>
+      <div class="exp-title">BTech — Information Technology</div>
+      <div class="exp-company">Prasad V. Potluri Siddhartha Institute of Technology</div>
+      <div class="exp-desc">Completed a 4-year BTech program in Information Technology. Built academic projects involving full-stack development, algorithms, and database systems. Graduated with a strong foundation in software engineering principles.</div>
+      <div class="exp-tags">
+        <span class="exp-tag">Data Structures</span>
+        <span class="exp-tag">DBMS</span>
+        <span class="exp-tag">Web Development</span>
+        <span class="exp-tag">OS &amp; Networking</span>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-date">2025–2026</div>
+      <div class="exp-title">Frontend Developer (Project)</div>
+      <div class="exp-company">WanderLog — Country Explorer &amp; Bucket List App</div>
+      <div class="exp-desc">Designed and built a feature-complete single-page application. Integrated the REST Countries API for real-time data, implemented mock authentication via Reqres.in, and built per-user bucket list tracking with session persistence. Added responsive grid layout and advanced sorting/filtering.</div>
+      <div class="exp-tags">
+        <span class="exp-tag">React</span>
+        <span class="exp-tag">Vite</span>
+        <span class="exp-tag">REST API</span>
+        <span class="exp-tag">Protected Routes</span>
+        <span class="exp-tag">CSS</span>
+      </div>
+    </div>
+    <div class="exp-item">
+      <div class="exp-dot"></div>
+      <div class="exp-date">2024</div>
+      <div class="exp-title">Academic Full-Stack Projects</div>
+      <div class="exp-company">PVPSIT — Final Year Projects</div>
+      <div class="exp-desc">Developed several full-stack web applications as part of coursework, focusing on JavaScript frameworks, backend integration, and database management. Gained hands-on experience deploying apps and working with version control.</div>
+      <div class="exp-tags">
+        <span class="exp-tag">Node.js</span>
+        <span class="exp-tag">MongoDB</span>
+        <span class="exp-tag">Express</span>
+        <span class="exp-tag">JavaScript</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="reveal">
+    <div class="section-label">What I've Built</div>
+    <h2 class="section-title">Projects</h2>
+    <div class="divider"></div>
+    <p class="section-sub">Hands-on work that demonstrates real-world development skills.</p>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-icon">🗺️</div>
+      <div class="project-title">WanderLog</div>
+      <div class="project-desc">Country explorer and travel bucket list app. Features mock authentication, per-user bucket list tracking, session persistence, and a responsive grid of 250+ countries pulled from the REST Countries API.</div>
+      <div class="project-tags">
+        <span class="project-tag">React</span>
+        <span class="project-tag">Vite</span>
+        <span class="project-tag">REST Countries API</span>
+        <span class="project-tag">Reqres.in</span>
+        <span class="project-tag">Protected Routes</span>
+      </div>
+      <a href="#" class="project-link">↗</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-icon">🌦️</div>
+      <div class="project-title">Weather Dashboard</div>
+      <div class="project-desc">Real-time weather app that fetches live data from OpenWeatherMap API. Features dynamic background updates based on conditions, search by city, and a clean, responsive UI.</div>
+      <div class="project-tags">
+        <span class="project-tag">HTML/CSS</span>
+        <span class="project-tag">JavaScript</span>
+        <span class="project-tag">OpenWeatherMap API</span>
+      </div>
+      <a href="#" class="project-link">↗</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-icon">⚖️</div>
+      <div class="project-title">BMI Calculator</div>
+      <div class="project-desc">Responsive Body Mass Index calculator built with React.js. Provides instant feedback with visual health indicators, clean UI, and handles metric / imperial unit switching.</div>
+      <div class="project-tags">
+        <span class="project-tag">React.js</span>
+        <span class="project-tag">CSS</span>
+        <span class="project-tag">State Management</span>
+      </div>
+      <a href="#" class="project-link">↗</a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-icon">🛒</div>
+      <div class="project-title">E-Commerce UI</div>
+      <div class="project-desc">A fully responsive e-commerce product listing page with cart functionality, filter sidebar, and smooth transitions. Demonstrates complex state management and component architecture.</div>
+      <div class="project-tags">
+        <span class="project-tag">React</span>
+        <span class="project-tag">Context API</span>
+        <span class="project-tag">CSS Grid</span>
+      </div>
+      <a href="#" class="project-link">↗</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <div class="skills-outer">
+    <div class="reveal">
+      <div class="section-label">Technical Expertise</div>
+      <h2 class="section-title">Skills</h2>
+      <div class="divider"></div>
+      <p style="font-size:1.05rem;line-height:1.8;color:var(--muted);margin-bottom:2rem">Core technologies I work with confidently, plus tools I'm actively learning.</p>
+      <div class="skills-pills">
+        <span class="s-pill">Git &amp; GitHub</span>
+        <span class="s-pill">REST APIs</span>
+        <span class="s-pill">Responsive Design</span>
+        <span class="s-pill">MongoDB</span>
+        <span class="s-pill">MySQL</span>
+        <span class="s-pill">Express.js</span>
+        <span class="s-pill">Node.js</span>
+        <span class="s-pill">Figma (Basic)</span>
+        <span class="s-pill">VS Code</span>
+        <span class="s-pill">Postman</span>
+      </div>
+      <div class="edu-grid" style="margin-top:2rem">
+        <div class="edu-card">
+          <div class="edu-degree">BTech — IT</div>
+          <div class="edu-school">PVPSIT, Vijayawada</div>
+          <div class="edu-meta">2022 – May 2026</div>
+          <span class="edu-badge">Graduated ✓</span>
+        </div>
+        <div class="edu-card">
+          <div class="edu-degree">Intermediate (MPC)</div>
+          <div class="edu-school">Narayana Junior College</div>
+          <div class="edu-meta">2020 – 2022</div>
+          <span class="edu-badge">Completed ✓</span>
+        </div>
+      </div>
+    </div>
+    <div class="skills-bento reveal">
+      <div class="skill-card">
+        <div class="skill-name">React &amp; JSX</div>
+        <div class="skill-bar-bg"><div class="skill-bar violet" data-width="88"></div></div>
+        <div class="skill-level">88%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">JavaScript (ES6+)</div>
+        <div class="skill-bar-bg"><div class="skill-bar violet" data-width="85"></div></div>
+        <div class="skill-level">85%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">HTML &amp; CSS</div>
+        <div class="skill-bar-bg"><div class="skill-bar green" data-width="90"></div></div>
+        <div class="skill-level">90%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Vite</div>
+        <div class="skill-bar-bg"><div class="skill-bar green" data-width="80"></div></div>
+        <div class="skill-level">80%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">Node.js &amp; Express</div>
+        <div class="skill-bar-bg"><div class="skill-bar amber" data-width="72"></div></div>
+        <div class="skill-level">72%</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-name">MongoDB &amp; SQL</div>
+        <div class="skill-bar-bg"><div class="skill-bar amber" data-width="68"></div></div>
+        <div class="skill-level">68%</div>
+      </div>
+      <div class="skill-card wide">
+        <div class="skill-name">TypeScript</div>
+        <div class="skill-bar-bg"><div class="skill-bar violet" data-width="60"></div></div>
+        <div class="skill-level">60% — Learning</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="reveal">
+      <div class="section-label">Let's Connect</div>
+      <h2 class="section-title">Get in Touch</h2>
+      <div class="divider"></div>
+      <p style="font-size:1.05rem;line-height:1.8;color:var(--muted);margin-bottom:2rem">
+        I'm actively looking for my first full-time role. Whether it's an internship, full-time position, or a freelance project — I'd love to hear from you.
+      </p>
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-item-label">Email</div>
+            <div class="contact-item-value">viswanadha.karthik@example.com</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <div class="contact-item-label">Location</div>
+            <div class="contact-item-value">Hyderabad, Telangana, India</div>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💼</div>
+          <div>
+            <div class="contact-item-label">Status</div>
+            <div class="contact-item-value" style="color:var(--accent3)">Open to Opportunities</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:.75rem;margin-top:.5rem">
+          <a href="https://github.com/" target="_blank" class="btn-outline" style="flex:1;justify-content:center;font-size:.85rem;padding:.65rem 1rem">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank" class="btn-outline" style="flex:1;justify-content:center;font-size:.85rem;padding:.65rem 1rem">LinkedIn</a>
+          <a href="#" class="btn-primary" style="flex:1;justify-content:center;font-size:.85rem;padding:.65rem 1rem">Resume</a>
+        </div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="contact-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" id="cName" placeholder="Your name"/>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" id="cEmail" placeholder="your@email.com"/>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" id="cSubject" placeholder="What's it about?"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea id="cMessage" rows="6" placeholder="Tell me about the opportunity or project..."></textarea>
+        </div>
+        <button class="send-btn" onclick="sendMessage()">
+          <span id="sendText">Send Message →</span>
+        </button>
+        <div class="success-msg" id="successMsg">🎉 Message sent! I'll get back to you soon.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; built by <span>Viswanadha Manikanta Karthik</span> · 2026</p>
+</footer>
+  <script src="javascript.js"></script>
+</body>
+</html>
